@@ -1,0 +1,19 @@
+
+
+#ifndef MAKINGTETRIS_DEFINES_H
+#define MAKINGTETRIS_DEFINES_H
+
+#define SCREEN_WIDTH 360*2
+#define SCREEN_HEIGHT 720*2
+#define GAME_BORDER_WIDTH 360
+#define GAME_BORDER_HEIGHT 720
+
+#define ELEMENT_WIDTH 36
+#define ELEMENT_HEIGHT 36
+
+#define Number_Of_Element_On_Row GAME_BORDER_HEIGHT / ELEMENT_HEIGHT
+#define Number_Of_Element_On_Column GAME_BORDER_WIDTH / ELEMENT_WIDTH
+
+#define Number_Of_Types 7
+
+#endif //MAKINGTETRIS_DEFINES_H
